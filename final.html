@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+.f1{
+color: black;
+background-color: rgb(206, 199, 199);
+
+}
+.numsei{
+background-color: darkseagreen;
+text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body class="f1">
+<h1 id="header"></h1>
+<script src="final.js"></script>
+<div id="output"></div>
+
+<h1>Calculadora</h1>
+<h2>Operações:</h2>
+<h3>Adição +</h3>
+<h3>Subtração -</h3>
+<h3>Multiplicação *</h3>
+<h3>Divisão /</h3>
+<h3>IMC</h3>
+<h3>Porcentagem %</h3>
+<h3>Exponenciação **</h3>
+<h3>Raiz /*</h3>
+
+
+<table border="1" class="numsei">
+
+<tr>
+<td>
+    <input type="text" id="num1" placeholder="Digite aqui">
+</td>
+<td>
+    <input type="text" id="sin" placeholder="Digite aqui o sinal">
+
+</td>
+<td>
+<input type="text" id="num2" placeholder="Digite aqui">
+
+
+</td>
+<td><button onclick="capturarValor()">Enviar</button>
+</td>
+</tr>
+<tr>
+    <td colspan="3">
+        <p id="resultado"></p>
+    </td>
+</tr>
+
+</table>
+
+
+
+
+</body>
+</html>
